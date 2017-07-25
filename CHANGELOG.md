@@ -6,6 +6,25 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ## [UNRELEASED]
 
+## [1.1.1] - 2017-07-16
+
+### Changed
+- remove temporary variables [32a27c9](https://github.com/browner12/helpers/commit/32a27c90ff18d1ee829ff45edf2bf3b959de7e1d)
+- shorten array normalization [32a27c9](https://github.com/browner12/helpers/commit/32a27c90ff18d1ee829ff45edf2bf3b959de7e1d)
+
+## [1.1.0] - 2017-06-06
+
+### Added
+- support for Laravel auto-discovery ([#10](https://github.com/browner12/helpers/pull/10))
+
+## [1.0.4] - 2017-06-06
+
+### Fixed
+- ensure only one leading slash ([#8](https://github.com/browner12/helpers/pull/8))
+
+### Changed
+- removed HHVM travis check, and added PHP 7.1 ([#9](https://github.com/browner12/helpers/pull/9))
+
 ## [1.0.3] - 2016-10-21
 
 ### Fixed
@@ -26,7 +45,10 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ### Added
 - new helpers package
 
-[unreleased]: https://github.com/browner12/helpers/compare/v1.0.3...HEAD
+[unreleased]: https://github.com/browner12/helpers/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/browner12/helpers/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/browner12/helpers/compare/v1.0.4...v1.1.0
+[1.0.4]: https://github.com/browner12/helpers/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/browner12/helpers/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/browner12/helpers/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/browner12/helpers/compare/v1.0.0...v1.0.1
